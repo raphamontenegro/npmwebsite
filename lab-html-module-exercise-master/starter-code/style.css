@@ -1,0 +1,223 @@
+
+
+body {
+  font-family: "Open Sans", "OpenSans", sans-serif;;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left { 
+  padding: 0 0 10px 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative ;
+  bottom: 30px
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.search-bar form {
+  display: inline-block;
+  padding: 0 0 20px 0;
+  float: left;
+}
+.search-bar input{
+  background-color: rgb(31, 82, 111);
+  float: left;
+  width: 1010px;
+  height: 50px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: grey ;
+}
+
+.search-bar button {
+  background-color: rgb(31, 82, 111);
+  color: white; 
+  width: 45px;
+  border-width: 1px;
+  border-color: grey ;
+  height: 50px;
+  float: left;
+}
+
+.search-bar svg {
+  width: 60%;
+}
+.search-bar a {
+float: left;
+text-decoration: none;
+color: white; 
+padding: 15px 0 0 20px;
+}
+.npm-logo {
+  width: 125px;
+  padding: 20px;
+  float: left;
+}
+
+.bear-logo {
+  float: left;
+  width: 40px;
+  padding: 0 0 0 10px;
+}
+.heading-div {
+  width: 450px; 
+  float: left; 
+  padding: 0 100px 0 100px;
+}
+
+.header {
+  color: white;
+  background-image: url("/Users/raphamontenegro/Desktop/IronHack/NPM PRACTICE/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  background-size: cover;
+  height: 400px;
+}
+
+.header-text-button {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: rgb(240, 146, 51);
+  width: 120px;
+  margin: 40px auto 0 0;
+  padding: 14px 20px;
+  border-radius: 25px;
+  right: 20px;
+}
+.signup {
+  background-color: rgb(39, 53, 71);
+  height: 480px;
+}
+
+.signup-img {
+width: 500px; 
+margin: 100px auto 0 200px;
+}
+
+.signup-text {
+color: white;
+float: right;
+margin: 100px 220px 0 auto;
+width: 30%;
+}
+
+.signup-text-heading {
+  font-size: 30px;
+}
+
+.signup-text li {
+  line-height: 25px;
+}
+.signup-text-button {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: rgb(203, 56, 55);
+  width: 135px;
+  margin: 40px auto 0 0;
+  padding: 14px 20px;
+  border-radius: 25px;
+  right: 20px;
+}
+
+.signup-text-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.what-is {
+  background-image: url("/Users/raphamontenegro/Desktop/IronHack/NPM PRACTICE/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+  background-size: cover;
+  position: relative;
+  height: 480px;
+  padding: 50px 0 0 0
+  
+}
+
+.what-is h3{
+text-align: left;
+font-size: 36px;
+}
+
+.what-is p {
+  text-align: left;
+  font-size: 20px;
+}
+.what-is-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  padding: 100px 190px;
+  bottom: 60px;
+}
+
+.what-is-text-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: rgb(49, 68, 88);
+  width: 150px;
+  margin: 40px auto 0 0;
+  padding: 14px 20px;
+  border-radius: 25px;
+  right: 20px;
+}
+.columns {
+  margin: 0 auto;
+}
+.make-heading{
+  color:rgb(83, 88, 98);
+}
+
+#make {
+  text-align: center;
+  background-color: white;
+}
+
+#make p {
+  color: rgb(135, 145, 156);
+}
+
+.make-link {
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
